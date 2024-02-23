@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <div id="form">
+            <h1>Job Application <span>(Web Dev)</span></h1>
+
+            <div class="a-form">
+                <div class="firstname">
+                    <h5>First Name</h5>
+                    <input type="text" class="input-bar" autofocus>
+                </div>
+                <div class="lastname">
+                    <h5>Last Name</h5>
+                    <input type="text" class="input-bar">
+                </div>
+            </div>
+            <div class="a-form">
+                <div class="firstname">
+                    <h5>Email</h5>
+                    <input type="email" class="input-bar" autofocus>
+                </div>
+                <div class="lastname">
+                    <h5>Job Role</h5>
+                    <select class="input-bar" name="jobrole">
+                        <option value="">Select Job Role</option>
+                        <option value="webdev">Web Developer</option>
+                        <option value="Full Stack Development">Full Stack Developer</option>
+                    </select>
+                </div>
+            </div>
+            <div class="a1-form">
+                <h5>Address</h5>
+                <textarea name="" class="address-bar" cols="30" rows="5"></textarea>
+            </div>
+            <div class="a-form">
+                <div class="firstname">
+                    <h5>City</h5>
+                    <input type="text" class="input-bar" autofocus>
+                </div>
+                <div class="lastname">
+                    <h5>Pincode</h5>
+                    <input type="text" class="input-bar">
+                </div>
+            </div>
+            <div class="a2-form">
+                <div class="firstname">
+                    <h5>Start Date</h5>
+                    <input type="date" class="input-bar" autofocus>
+                </div>
+                <div class="lastname">
+                    <h5>Upload Your CV</h5>
+                    <div class="file-upload" style="border: 1px solid black;">
+                    <input type="file" id="file-input"></div>
+                </div>
+            </div>
+            <div class="a1-form">
+                <button class="apply-button">Apply Now</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
